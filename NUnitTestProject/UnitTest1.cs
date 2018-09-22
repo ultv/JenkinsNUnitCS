@@ -13,7 +13,7 @@ namespace NUnitTestProject
             Calc calc = new Calc();
             int act = calc.Summ(5, 3);
 
-            int expected = 8;
+            int expected = 9;
 
             Assert.AreEqual(act, expected);
         }
