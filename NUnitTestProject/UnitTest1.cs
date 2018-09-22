@@ -28,5 +28,16 @@ namespace NUnitTestProject
 
             Assert.AreEqual(act, expected);
         }
+
+        [Test]
+        public void TestSub_5_and_5_returned_0()
+        {
+            Calc calc = new Calc();
+            int act = calc.Sub(5, 5);
+
+            int expected = 0;
+
+            Assert.AreEqual(act, expected);
+        }
     }
 }
