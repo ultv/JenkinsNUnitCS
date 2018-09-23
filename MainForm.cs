@@ -24,6 +24,7 @@ namespace ForJenkinsIntegrate
             Calc calc = new Calc();
             calc.Summ(5, 3);
             calc.Sub(5, 3);
+            calc.Summ(10, 20);
         }
         
     }
